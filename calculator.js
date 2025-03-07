@@ -23,22 +23,22 @@ function calculateReciprocal() {
 
 // TODO: Implement natural log function
 function naturalLog(value) {
-    // return the natural log of the value
+    return Math.log(value);
 }
 
 // TODO: Implement sine function
 function sine(value) {
-    // return the sine of the value
+    return Math.sine(value);
 }
 
 // TODO: Implement cosine function
 function cosine(value) {
-    // return the cosine of the value
+    return Math.cosine(value);
 }
 
 // TODO: Implement tangent function
 function tangent(value) {
-    // return the tangent of the value
+    return Math.tangent(value);
 }
 
 
@@ -47,5 +47,9 @@ function tangent(value) {
 module.exports = {
     calculateSquareRoot,
     calculateSquare,
-    calculateReciprocal
+    calculateReciprocal,
+    naturalLog,
+    sine,
+    cosine,
+    tangent
 };
