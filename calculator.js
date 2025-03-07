@@ -2,7 +2,7 @@
 
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
-    
+    return Math.sqrt(value);
     // return the square root of the value
 }
 
@@ -10,14 +10,14 @@ function calculateSquareRoot(value) {
 function calculateSquare(value) {
     // Hint: Use exponentiation
     // return the square root of the value
-
+    return Math.pow(value, 2);
 }
 
 // TODO: FIX reciprocal function
 function calculateReciprocal() {
     // Hint: Reciprocal is 1/x
     // return the square root of the value
-    return 1* value;
+    return 1 / value;
 
 }
 
